@@ -60,7 +60,7 @@ function GetUrl() {
           <hr></hr>
           <h1>Shortened Url: <a href={data.shortenUrl.shortenedUrl} target="_blank">{data.shortenUrl.shortenedUrl}</a></h1>
           <br></br>
-          <button onClick={() => goBack()}><i className="fa fa-chevron-left fa-4x" style={{cursor: 'pointer'}} aria-hidden="true"></i></button>
+          <button onClick={() => goBack()}><i className="fa fa-chevron-left fa-4x" style={{cursor: 'pointer', marginLeft: '40px'}} aria-hidden="true"></i></button>
         </div> 
       : 
             
