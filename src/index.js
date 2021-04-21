@@ -57,7 +57,6 @@ function GetUrl() {
       { data ? 
         <div>
           <h1>Full Url: {data.shortenUrl.fullUrl} </h1>
-
           <hr></hr>
           <h1>Shortened Url: <a href={data.shortenUrl.shortenedUrl} target="_blank">{data.shortenUrl.shortenedUrl}</a></h1>
           <br></br>
