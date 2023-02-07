@@ -1,2 +1,1 @@
-Shorten your urls.
-This website is hosted at https://bitty-url.netlify.app/
+Shorten your urls. Built with React.js
